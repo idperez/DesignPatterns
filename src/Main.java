@@ -1,15 +1,18 @@
-import Decorator.*;
+import Factory.stores.ChicagoPizzaStore;
+import Factory.stores.NYPizzaStore;
+import Factory.Pizza;
+import Factory.PizzaStore;
 
 public class Main {
 
     public static void main(String[] args) {
-        Beverage beverage = new Espresso();
-        System.out.println(beverage.getDescription() + " $" + beverage.cost());
+        PizzaStore nyStore = new NYPizzaStore();
+        PizzaStore chicagoStore = new ChicagoPizzaStore();
 
-        Beverage beverage2 = new HouseBlend();
-        beverage2 = new Mocha(beverage2);
-        beverage2 = new Mocha(beverage2);
-        beverage2 = new Whip(beverage2);
-        System.out.println(beverage2.getDescription() + " $" + beverage2.cost());
+        Pizza pizza = nyStore.orderPizza("cheese");
+        System.out.println("Ethan ordered a " + pizza.getName() + "\n");
+
+        pizza = chicagoStore.orderPizza("cheese");
+        System.out.println("Joel ordered a " + pizza.getName() + "\n");
     }
 }
