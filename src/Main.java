@@ -1,14 +1,15 @@
-import ObserverPattern.CurrentConditionsDisplay;
-import ObserverPattern.WeatherData;
+import Decorator.*;
 
 public class Main {
 
     public static void main(String[] args) {
-        WeatherData weatherData = new WeatherData();
+        Beverage beverage = new Espresso();
+        System.out.println(beverage.getDescription() + " $" + beverage.cost());
 
-        CurrentConditionsDisplay currentDisplay = new CurrentConditionsDisplay(weatherData);
-
-        weatherData.setMeasurements(80, 12, 3);
-        weatherData.setMeasurements(82, 12, 3);
+        Beverage beverage2 = new HouseBlend();
+        beverage2 = new Mocha(beverage2);
+        beverage2 = new Mocha(beverage2);
+        beverage2 = new Whip(beverage2);
+        System.out.println(beverage2.getDescription() + " $" + beverage2.cost());
     }
 }
