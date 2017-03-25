@@ -1,13 +1,14 @@
-import StrategyPattern.Ducks.Duck;
-import StrategyPattern.Ducks.ModelDuck;
-import StrategyPattern.Fly.FlyRocketPower;
+import ObserverPattern.CurrentConditionsDisplay;
+import ObserverPattern.WeatherData;
 
 public class Main {
 
     public static void main(String[] args) {
-        Duck modelDuck = new ModelDuck();
-        modelDuck.performFly();
-        modelDuck.setFlyBehavior(new FlyRocketPower());
-        modelDuck.performFly();
+        WeatherData weatherData = new WeatherData();
+
+        CurrentConditionsDisplay currentDisplay = new CurrentConditionsDisplay(weatherData);
+
+        weatherData.setMeasurements(80, 12, 3);
+        weatherData.setMeasurements(82, 12, 3);
     }
 }
