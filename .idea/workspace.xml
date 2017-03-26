@@ -1,72 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2014b2fc-0b62-49a3-b9c8-c94f36ff1030" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/facade/DvdPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/facade/HomeTheaterFacade.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/facade/PopcornPopper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/facade/Projector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/facade/Screen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/facade/TheaterLights.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactory/Cheese.java" afterPath="$PROJECT_DIR$/src/abstractFactory/Cheese.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactory/CheesePizza.java" afterPath="$PROJECT_DIR$/src/abstractFactory/CheesePizza.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactory/ClamPizza.java" afterPath="$PROJECT_DIR$/src/abstractFactory/ClamPizza.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactory/Clams.java" afterPath="$PROJECT_DIR$/src/abstractFactory/Clams.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactory/Dough.java" afterPath="$PROJECT_DIR$/src/abstractFactory/Dough.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactory/FreshClams.java" afterPath="$PROJECT_DIR$/src/abstractFactory/FreshClams.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactory/Garlic.java" afterPath="$PROJECT_DIR$/src/abstractFactory/Garlic.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactory/NYPizzaIngredientFactory.java" afterPath="$PROJECT_DIR$/src/abstractFactory/NYPizzaIngredientFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactory/NYPizzaStore.java" afterPath="$PROJECT_DIR$/src/abstractFactory/NYPizzaStore.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactory/Pepperoni.java" afterPath="$PROJECT_DIR$/src/abstractFactory/Pepperoni.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactory/Pizza.java" afterPath="$PROJECT_DIR$/src/abstractFactory/Pizza.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactory/PizzaIngredientFactory.java" afterPath="$PROJECT_DIR$/src/abstractFactory/PizzaIngredientFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactory/PizzaStore.java" afterPath="$PROJECT_DIR$/src/abstractFactory/PizzaStore.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactory/Sauce.java" afterPath="$PROJECT_DIR$/src/abstractFactory/Sauce.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactory/SlicedPepperoni.java" afterPath="$PROJECT_DIR$/src/abstractFactory/SlicedPepperoni.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactory/Veggies.java" afterPath="$PROJECT_DIR$/src/abstractFactory/Veggies.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Adapter/Duck.java" afterPath="$PROJECT_DIR$/src/adapter/Duck.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Adapter/MallardDuck.java" afterPath="$PROJECT_DIR$/src/adapter/MallardDuck.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Adapter/Turkey.java" afterPath="$PROJECT_DIR$/src/adapter/Turkey.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Adapter/TurkeyAdapter.java" afterPath="$PROJECT_DIR$/src/adapter/TurkeyAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Adapter/WildTurkey.java" afterPath="$PROJECT_DIR$/src/adapter/WildTurkey.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Command/Command.java" afterPath="$PROJECT_DIR$/src/command/Command.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Command/Light.java" afterPath="$PROJECT_DIR$/src/command/Light.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Command/LightOnCommand.java" afterPath="$PROJECT_DIR$/src/command/LightOnCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Command/SimpleRemoteControl.java" afterPath="$PROJECT_DIR$/src/command/SimpleRemoteControl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Decorator/Beverage.java" afterPath="$PROJECT_DIR$/src/decorator/Beverage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Decorator/CondimentDecorator.java" afterPath="$PROJECT_DIR$/src/decorator/CondimentDecorator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Decorator/Espresso.java" afterPath="$PROJECT_DIR$/src/decorator/Espresso.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Decorator/HouseBlend.java" afterPath="$PROJECT_DIR$/src/decorator/HouseBlend.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Decorator/Mocha.java" afterPath="$PROJECT_DIR$/src/decorator/Mocha.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Decorator/Whip.java" afterPath="$PROJECT_DIR$/src/decorator/Whip.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Factory/Pizza.java" afterPath="$PROJECT_DIR$/src/factory/Pizza.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Factory/PizzaStore.java" afterPath="$PROJECT_DIR$/src/factory/PizzaStore.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Factory/pizza/ChicagoStyleCheesePizza.java" afterPath="$PROJECT_DIR$/src/factory/pizza/ChicagoStyleCheesePizza.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Factory/pizza/ChicagoStyleVeggiePizza.java" afterPath="$PROJECT_DIR$/src/factory/pizza/ChicagoStyleVeggiePizza.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Factory/pizza/NYStyleCheesePizza.java" afterPath="$PROJECT_DIR$/src/factory/pizza/NYStyleCheesePizza.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Factory/pizza/NYStyleVeggiePizza.java" afterPath="$PROJECT_DIR$/src/factory/pizza/NYStyleVeggiePizza.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Factory/stores/ChicagoPizzaStore.java" afterPath="$PROJECT_DIR$/src/factory/stores/ChicagoPizzaStore.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Factory/stores/NYPizzaStore.java" afterPath="$PROJECT_DIR$/src/factory/stores/NYPizzaStore.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Observer/CurrentConditionsDisplay.java" afterPath="$PROJECT_DIR$/src/observer/CurrentConditionsDisplay.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Observer/DisplayElement.java" afterPath="$PROJECT_DIR$/src/observer/DisplayElement.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Observer/WeatherData.java" afterPath="$PROJECT_DIR$/src/observer/WeatherData.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Singleton/SingletonDoubleCheckLock.java" afterPath="$PROJECT_DIR$/src/singleton/SingletonDoubleCheckLock.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Singleton/SingletonEager.java" afterPath="$PROJECT_DIR$/src/singleton/SingletonEager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Singleton/SingletonSingleThread.java" afterPath="$PROJECT_DIR$/src/singleton/SingletonSingleThread.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Singleton/SingletonSync.java" afterPath="$PROJECT_DIR$/src/singleton/SingletonSync.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Strategy/Ducks/Duck.java" afterPath="$PROJECT_DIR$/src/strategy/Ducks/Duck.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Strategy/Ducks/MallardDuck.java" afterPath="$PROJECT_DIR$/src/strategy/Ducks/MallardDuck.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Strategy/Ducks/ModelDuck.java" afterPath="$PROJECT_DIR$/src/strategy/Ducks/ModelDuck.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Strategy/Fly/FlyBehavior.java" afterPath="$PROJECT_DIR$/src/strategy/Fly/FlyBehavior.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Strategy/Fly/FlyNoWay.java" afterPath="$PROJECT_DIR$/src/strategy/Fly/FlyNoWay.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Strategy/Fly/FlyRocketPower.java" afterPath="$PROJECT_DIR$/src/strategy/Fly/FlyRocketPower.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Strategy/Fly/FlyWithWings.java" afterPath="$PROJECT_DIR$/src/strategy/Fly/FlyWithWings.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Strategy/Quack/MuteQuack.java" afterPath="$PROJECT_DIR$/src/strategy/Quack/MuteQuack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Strategy/Quack/Quack.java" afterPath="$PROJECT_DIR$/src/strategy/Quack/Quack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Strategy/Quack/QuackBehavior.java" afterPath="$PROJECT_DIR$/src/strategy/Quack/QuackBehavior.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Strategy/Quack/Squeak.java" afterPath="$PROJECT_DIR$/src/strategy/Quack/Squeak.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="2014b2fc-0b62-49a3-b9c8-c94f36ff1030" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -78,25 +13,22 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeTheaterFacade.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HomeTheaterFacade.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/facade/HomeTheaterFacade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="60" lean-forward="false" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
-              <folding>
-                <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="541">
+              <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -229,42 +161,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="singleton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DesignPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="facade" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -745,16 +641,15 @@
       <updated>1490392983520</updated>
       <workItem from="1490392984862" duration="483000" />
       <workItem from="1490393498053" duration="5789000" />
-      <workItem from="1490471672989" duration="10164000" />
+      <workItem from="1490471672989" duration="10318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16436000" />
+    <option name="totallyTimeSpent" value="16590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="739" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -766,12 +661,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33848533" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33848533" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26494345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26494345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1329,21 +1224,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/facade/HomeTheaterFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="60" lean-forward="false" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
-          <folding>
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/facade/HomeTheaterFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
           <folding />
         </state>
       </provider>
