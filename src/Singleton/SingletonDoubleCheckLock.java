@@ -1,6 +1,6 @@
 package Singleton;
 
-// Thread safe, instantiated before threads can touch
+// Thread safe, only synchronized if Singleton is not instantiated yet
 public class SingletonDoubleCheckLock {
     private volatile static SingletonDoubleCheckLock uniqueInstance;
 
